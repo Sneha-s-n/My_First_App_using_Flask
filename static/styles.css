@@ -1,0 +1,77 @@
+
+body{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin:0;
+    padding:0;
+    background-color: aqua;
+
+}
+
+.content{
+    max-width: 600px;
+    margin:500px auto;
+    padding:20px;
+    background-color:cornsilk;
+    border-radius:10px;
+    box-shadow:0 0 10px black;
+    text-align:center;
+  h1{
+    color:darkslateblue;
+  }
+  h3{
+    color:blueviolet;
+  }
+  table{
+    width:600px;
+    margin-top:20px;
+    border-collapse:collapse;
+  
+
+
+    th,
+    td{
+      padding:10px;
+      border:1px solid black;
+
+      th{
+        background-color:cornsilk;
+        color:#333;
+      }
+    }
+  }
+  a{
+    display:inline-block;
+    padding: 8px 14px;
+    margin:3px;
+    border-radius:20px;
+    background-color:blueviolet;
+    color:#fff;
+    text-decoration:none;
+    transition:background-color 0.3s ease;
+
+    &:hover{
+      background-color: palevioletred;
+    }
+  }
+
+  input{
+    padding:10px;
+    margin:5px;
+    border:solid 1px;
+    border-radius:5px;
+  }
+
+  #btn_add{
+    background-color:rgb(47, 255, 102);
+    color:#fff;
+    cursor:pointer;
+    
+    &:hoverP{
+      background-color:green;
+    }
+  }
+}
+
+
+
+/*# sourceMappingURL=styles.css.map */
